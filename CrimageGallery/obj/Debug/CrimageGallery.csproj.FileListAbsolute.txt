@@ -80,3 +80,6 @@ c:\users\crimag3\documents\visual studio 2015\Projects\CrimageGallery\CrimageGal
 c:\users\crimag3\documents\visual studio 2015\Projects\CrimageGallery\CrimageGallery\obj\Debug\CrimageGallery.csprojResolveAssemblyReference.cache
 c:\users\crimag3\documents\visual studio 2015\Projects\CrimageGallery\CrimageGallery\obj\Debug\CrimageGallery.dll
 c:\users\crimag3\documents\visual studio 2015\Projects\CrimageGallery\CrimageGallery\obj\Debug\CrimageGallery.pdb
+C:\Users\crimag3\Documents\Visual Studio 2015\Projects\CrimageGallery\CrimageGallery\obj\Debug\CrimageGallery.Migrations.InitialCreate.resources
+C:\Users\crimag3\Documents\Visual Studio 2015\Projects\CrimageGallery\CrimageGallery\obj\Debug\CrimageGallery.csproj.GenerateResource.Cache
+C:\Users\crimag3\Documents\Visual Studio 2015\Projects\CrimageGallery\CrimageGallery\obj\Debug\CrimageGallery.Migrations.Initial.resources
