@@ -46,10 +46,23 @@ namespace CrimageGallery.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "CategoryId,Name,Image")] Category category)
+        public ActionResult Create([Bind(Include = "CategoryId,Name,")] Category category, HttpPostedFileBase upload)
         {
             if (ModelState.IsValid)
             {
+                if (upload != null && upload.ContentLength > 0)
+                {
+                    var img = new CategoryImageFile
+                    {
+                        FileName = System.IO.Path.GetFileName(upload.FileName),
+                        ContentType = upload.ContentType
+                    };
+                    using (var reader = new System.IO.BinaryReader(upload.InputStream))
+                    {
+                        img.Content = reader.ReadBytes(upload.ContentLength);
+                    }
+                    category.Image = img;
+                }
                 db.Categories.Add(category);
                 db.SaveChanges();
                 return RedirectToAction("Index");

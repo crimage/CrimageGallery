@@ -6,7 +6,7 @@ using System.Web;
 
 namespace CrimageGallery.Models
 {
-    public class File
+    public abstract class File
     {
         public virtual int FileId { get; set; }
         [StringLength(255)]
