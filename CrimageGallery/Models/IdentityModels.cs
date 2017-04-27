@@ -29,5 +29,7 @@ namespace CrimageGallery.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<CrimageGallery.Models.Category> Categories { get; set; }
     }
 }
