@@ -14,5 +14,7 @@ namespace CrimageGallery.Models
         public virtual UserImageFile UserImage { get; set; }
 
         public virtual Category Category { get; set; }
+
+        public virtual ApplicationUser UploadedBy { get; set; }
     }
 }
