@@ -13,7 +13,6 @@ namespace CrimageGallery.Models
         public virtual string FileName { get; set; }
         [StringLength(100)]
         public virtual string ContentType { get; set; }
-
         public virtual byte[] Content { get; set; }
     }
 

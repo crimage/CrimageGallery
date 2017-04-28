@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrimageGallery", "CrimageGallery\CrimageGallery.csproj", "{AF278B52-F0F4-4F14-81BD-0E8F1EF05BBC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrimageGallery", "CrimageGallery\CrimageGallery.csproj", "{ABCE6272-D0C6-49F0-B8E3-C97EFA8C36AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AF278B52-F0F4-4F14-81BD-0E8F1EF05BBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AF278B52-F0F4-4F14-81BD-0E8F1EF05BBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AF278B52-F0F4-4F14-81BD-0E8F1EF05BBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AF278B52-F0F4-4F14-81BD-0E8F1EF05BBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABCE6272-D0C6-49F0-B8E3-C97EFA8C36AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABCE6272-D0C6-49F0-B8E3-C97EFA8C36AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABCE6272-D0C6-49F0-B8E3-C97EFA8C36AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABCE6272-D0C6-49F0-B8E3-C97EFA8C36AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
